@@ -1,14 +1,12 @@
-//
-//  main.cpp
-//  24.09.2024
-//
-//  Created by Владислав on 24.09.2024.
-//
-
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    int c = 0;
+    while (c!=1)
+    {
+        std::cout << "Vvedite chislo\n";
+        std::cin >> c;
+    }
     return 0;
 }
